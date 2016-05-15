@@ -1,0 +1,26 @@
+.button
+{    -fx-font-size:3em;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,.5,0.4) , 5, 0.0 , 0 , 1 );
+
+    -fx-background-color: 
+        #000011,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-text-fill: black; 
+    -fx-background-radius:20px 100px 20px 100px;
+}
+.button:hover
+{
+	-fx-background-color:#3250bf;
+}
+.root
+{
+    -fx-background-color:#a5af1a;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,.5,0.4) , 5, 0.0 , 0 , 1 );
+}
+.label
+{
+	-fx-text-fill:red;
+    
+}
